@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог товаров</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> <!-- Новый стиль шрифта -->
+</head>
+<body>
+    <header id="header">
+        <div class="header-container">
+            <h1 class="store-name">A'Ya</h1>
+            <nav class="nav-menu">
+                <!-- <a href="#home"><img src="img/icons8.svg"></a> -->
+                <a href="#cart" id="cart-button"><img src="img/Frame-2.svg"></a>
+                <a href="#top" id="back-to-top"><img src="img/icons6.svg"></a>
+            </nav>
+        </div>
+    </header>
+
+    <div id="top"></div>
+
+    <section class="brand-description">
+        <h2>О нашем бренде</h2>
+        <p>Мы - надежный поставщик качественных товаров, предлагающий широкий ассортимент для каждого клиента.</p>
+        <p>Мы ценим каждого клиента и стремимся постоянно улучшать наш сервис.</p>
+    </section>
+
+    <main>
+      <!-- Блоки контента -->
+        <div class="product-container">
+            <div class="product-card" data-name="Товар 1" data-price="1000">
+                <img src="img/1.jpg" alt="Товар 1">
+                <h2>Товар 1</h2>
+                <p>Описание товара 1</p>
+                <p>Цена: 1000 ₽</p>
+                <button class="add-to-cart">Добавить в корзину</button>
+            </div>
+            <div class="product-card" data-name="Товар 2" data-price="1500">
+                <img src="img/2.jpg" alt="Товар 2">
+                <h2>Товар 2</h2>
+                <p>Описание товара 2</p>
+                <p>Цена: 1500 ₽</p>
+                <button class="add-to-cart">Добавить в корзину</button>
+            </div>
+            <div class="product-card" data-name="Товар 3" data-price="2000">
+                <img src="img/3.jpg" alt="Товар 3">
+                <h2>Товар 3</h2>
+                <p>Описание товара 3</p>
+                <p>Цена: 2000 ₽</p>
+                <button class="add-to-cart">Добавить в корзину</button>
+            </div>
+            <div class="product-card" data-name="Товар 4" data-price="2500">
+                <img src="img/4.jpg" alt="Товар 4">
+                <h2>Товар 4</h2>
+                <p>Описание товара 4</p>
+                <p>Цена: 2500 ₽</p>
+                <button class="add-to-cart">Добавить в корзину</button>
+            </div>
+            <div class="product-card" data-name="Товар 5" data-price="3000">
+                <img src="img/5.jpg" alt="Товар 5">
+                <h2>Товар 5</h2>
+                <p>Описание товара 5</p>
+                <p>Цена: 3000 ₽</p>
+                <button class="add-to-cart">Добавить в корзину</button>
+            </div>
+            <div class="product-card" data-name="Товар 6" data-price="3500">
+                <img src="img/6.jpg" alt="Товар 6">
+                <h2>Товар 6</h2>
+                <p>Описание товара 6</p>
+                <p>Цена: 3500 ₽</p>
+                <button class="add-to-cart">Добавить в корзину</button>
+            </div>
+            <div class="product-card" data-name="Товар 7" data-price="3500">
+              <img src="img/7.jpg" alt="Товар 7">
+              <h2>Товар 7</h2>
+              <p>Описание товара 6</p>
+              <p>Цена: 3500 ₽</p>
+              <button class="add-to-cart">Добавить в корзину</button>
+          </div>
+          <div class="product-card" data-name="Товар 8" data-price="3500">
+            <img src="img/8.jpg" alt="Товар 8">
+            <h2>Товар 8</h2>
+            <p>Описание товара 6</p>
+            <p>Цена: 3500 ₽</p>
+            <button class="add-to-cart">Добавить в корзину</button>
+        </div>
+        </div>
+    </main>
+
+    <div class="modal" id="cart-modal">
+        <div class="modal-content">
+            <span class="close" id="close-modal">&times;</span>
+            <h2>Корзина</h2>
+            <ul id="cart-items"></ul>
+            <button id="checkout-button">Оформить заказ</button>
+        </div>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+          <h2>Ваш магазин</h2>
+          <ul class="contact-links">
+              <li><a href="tel:+79001234567">Телефон: +7 (900) 123-45-67</a></li>
+              <li><a href="mailto:info@vashmagazin.ru">Электронная почта: info@vashmagazin.ru</a></li>
+              <li><a href="https://www.example.com" target="_blank">Сайт: www.vashmagazin.ru</a></li>
+          </ul>
+      </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
