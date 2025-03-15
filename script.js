@@ -6,6 +6,7 @@ const cartItemsList = document.getElementById('cart-items');
 const checkoutButton = document.getElementById('checkout-button');
 const backToTopButton = document.getElementById('back-to-top');
 
+
 document.querySelectorAll('.add-to-cart').forEach(button => {
     button.addEventListener('click', () => {
         const productCard = button.parentElement;

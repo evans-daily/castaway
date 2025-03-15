@@ -56,6 +56,9 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background: linear-gradient(to bottom, #4df7da, rgba(80, 255, 252, 0));
+    
+      
 }
 
 .main {
